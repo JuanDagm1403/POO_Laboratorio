@@ -40,11 +40,11 @@ public:
 };
 
 int main() {
-	Perro miPerro("Rex", 5);
+	Perro miPerro("Benji", 5);
 	miPerro.hacerSonido();
-	Automovil miCoche("Toyota", 60);
+	Automovil miCoche("Mazda", 60);
 	miCoche.acelerar();
-	Persona persona1("Carlos", 30);
+	Persona persona1("Juan", 30);
 	persona1.saludar();
 	return 0;
 }
